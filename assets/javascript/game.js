@@ -19,10 +19,14 @@
         guesses--;
       }
 
-      // Display losses if not a match
       else {
-        guesses--;
-      }
+       guesses--;
+     }
+
+      //Display losses when guesses = 0
+      //if (userGuess ! computerGuess, guesses == 0) {
+      //  losses++;
+    //  }
 
       // Taking the tallies and displaying them in HTML
       var html = "<p>Guess what letter I'm thinking of</p>" + "<p>Wins: " + wins + "</p>" + "<p>Losses: " + losses + "</p>" + "<p>Guesses left: " + guesses + "</p>";
@@ -33,9 +37,6 @@
       // Display letters pressed by user
       var targetDiv = document.getElementById("guesstracker");
 
-      // Use innerHTML to print to page
+      // Use innerHTML to print  letters to page
       targetDiv.innerHTML = "Your guesses so far: " + userGuess
     }
-
-
-    // Display letters pressed by user
