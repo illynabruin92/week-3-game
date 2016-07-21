@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+}
+
+img {
+  width: 100%;
+}
+
+h1, #main, #guesstracker {
+  text-align: center;
+  font-style: oblique;
+  font-size: 28px;
+  color: white;
+}
+
+h1 {
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
